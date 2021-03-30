@@ -12,26 +12,30 @@ body {
   color: #384047;
   background: #0ACD98;
 }
-.imgcontainer{
+.imgcontainer {
     width: 40%;
      background-image: url("https://lacerba.io/assets/illustrazione-login.png");
-    height: 145vh;
+    height: 100vh;
     float: right;
     background-size: cover;
     
     
 
 }
+.formcontainer form:nth-child(3n + 1) {
+   clear: left;
+  }
 
-.formcontainer {
+.formcontainer  {
 
   margin: 10px auto;
   padding: 5px 10px;
   border-radius: 8px;
-  width: 30%;
+  width: 60%;
   float: left;
   text-align: left;
-  margin-left: 0 150px;
+  
+  height: 10vh;
 
 }
 h1 {
@@ -134,7 +138,7 @@ label.news {
 span{
   position: absolute;
   padding-top: 20px;
-  padding-left:  370px;
+  padding-left:  500px;
 }  
 
 button{
@@ -145,9 +149,9 @@ button.btn{
   display: inline-block;
   
 }
-.formcontainer{
+.formcontainer form{
   text-align: left;
-  margin-left: 150px;
+  margin: 0 150px;
   
 }
 .cas{
@@ -162,4 +166,13 @@ button.btn{
 
 .accedi{
   text-align: center;
+}
+.logo{
+  height: 10vh;
+  margin: 0 150px;
+}
+h1{
+  height: 6vh;
+  font-size: 25px;
+  margin: 0 150px;
 }
