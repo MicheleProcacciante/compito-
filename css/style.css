@@ -4,36 +4,37 @@
   box-sizing: border-box;
   margin: 0;
 }
-
-a {
+a  {
   color: white;
 }
-
 body {
-  font-family: arial
+  font-family: arial;
   color: #384047;
   background: #0ACD98;
 }
+.imgcontainer{
+    width: 1%;
+    background-image: url("/immagini/illustrazione-login.png");
+    height: 200vh;
+    float: right;
+    background-size: cover;
+    margin: 0 auto;
+    
 
-img {
-  width: 40%;
-  float: right;
 }
 
-form {
-  max-width: 300px;
+.formcontainer {
+
   margin: 10px auto;
   padding: 10px 20px;
   border-radius: 8px;
   width: 60%;
   float: left;
 }
-
 h1 {
   margin: 0 0 30px 0;
   color: white;
 }
-
 input[type="text"],
 input[type="password"],
 input[type="cognome"],
@@ -61,26 +62,23 @@ select {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
-
 input[type="text"],
 input[type="password"],
 input[type="cognome"],
 input[type="conferma_password"],
 input[type="email"]{
   border-radius: 15px;
+  margin: 10px auto;
 }
-
 input[type="radio"],
 input[type="checkbox"] {
   margin: 0 4px 8px 0;
 }
-
 select {
   padding: 6px;
   height: 32px;
   border-radius: 2px;
 }
-
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
@@ -92,28 +90,23 @@ button {
   width: 100%;
   margin-bottom: 10px;
 }
-
 fieldset {
   margin-bottom: 30px;
   border: none;
   color: white;
 }
-
 legend {
   font-size: 1.4em;
   margin-bottom: 10px;
 }
-
 label {
   display: block;
   margin-bottom: 8px;
 }
-
 label.news {
   font-weight: 300;
   display: inline;
 }
-
 .number {
   color: #F47521;
   height: 30px;
@@ -125,27 +118,38 @@ label.news {
   text-align: center;
   text-shadow: 0 1px 0 rgba(255,255,255,0.2);
 }
-
 #no_news {
   margin-bottom: 25px;
 }
-
 @media screen and (min-width: 480px) {
-
   form {
     max-width: 480px;
   }
-
-}
-
-img .logo{
- text-align: center;
 }
 span{
   position: absolute;
-  padding-top: 10px;
-  padding-left:  370px;
-}
+  padding-top: 20px;
+  padding-left:  190px;
+}  
+
 button{
   border-radius: 13px;
+}
+button.btn{
+  text-align: center;
+  display: inline-block;
+  
+}
+.formcontainer{
+  text-align: center;
+  
+}
+.cas{
+  text-align: center;
+}
+
+
+.ricordami{
+  text-align: left;
+  
 }

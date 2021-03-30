@@ -4,49 +4,46 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>https://lacerba.io/sign_up</title>
-        <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css">
         <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     </head>
     <body>
-        <form action="index.html" metho id="post">
-        <div  class="text_center">
-            <img src="immagini/logo.png" class="logo">
-            <h1>Crea il tuo account su lacerba per seguire i corsi</h1>
+
+    <div class="formcontainer">
+            <img src="immagini/logo.png" class="logo"/>
+           <h1>Crea il tuo account su lacerba per seguire i corsi</h1>
+           <form action="index.html" metho id="post">
+            <fieldset>
+                <span class="material-icons">
+                account_circle</span>
+            <div class="cas">                
+                <input placeholder="Nome...*" type="text" name="user_name" id="name" type="">
+                <input placeholder="Cognome...*" type="cognome" name="user_cognome" id="cognome">
+                <input placeholder="Email...*" type="email" name="user_email" id="email">
+                <input placeholder="Password*(minimo 6 caratteri)." type="password" name="user_password" id="password">
+                <input placeholder="Conferma password...*" type="conferma_password" name="user_conferma_password" id="conferma_password">
             </div>
-            <fieldset>
-                
-
-            <span class="material-icons">
-            account_circle</span>
-            <input placeholder="Nome...*" type="text" name="user_name" id="name" type="">
-            <input placeholder="Cognome...*" type="cognome" name="user_cognome" id="cognome">
-            <input placeholder="Email...*" type="email" name="user_email" id="email">
-            <input placeholder="Password*(minimo 6 caratteri)." type="password" name="user_password" id="password">
-            <input placeholder="Conferma password...*" type="conferma_password" name="user_conferma_password" id="conferma_password">
             </fieldset>
-
-
             <fieldset>
-            <br><input type="checkbox"><label class="news">Accetto i <a href="https://lacerba.io/pages/termini_e_condizioni" target="_blank"> termini di servizio*</a></label></br>
-            <br><input type="checkbox"><label class="news">Accetto le <a href="https://lacerba.io/pages/termini_e_condizioni#1341_1342" target="_blank"> clausole ex art. 1341 e 1342 cc*</a> </label></br>
-            <br><input type="checkbox"><label class="news">Ho letto <a href="https://lacerba.io/pages/privacy_policy" target="_blank">L'informativa Privacy</a> e desidero vivere un’esperienza Lacerba ottimizzata (ricezione di news, sconti e promozioni personalizzate)</label></br>
-            <br><input type="checkbox"><label class="news">Ho letto <a href="https://lacerba.io/pages/privacy_policy" target="_blank">l’Informativa Privacy</a> e desidero aiutare Lacerba a produrre contenuti sempre più affini ai miei interessi sulla base del mio profilo di studio </label></br>
+                <div class="div">
+                <br><input type="checkbox"><label class="news">Accetto i <a href="https://lacerba.io/pages/termini_e_condizioni" target="_blank"> termini di servizio*</a></label></br>
+                <br><input type="checkbox"><label class="news">Accetto le <a href="https://lacerba.io/pages/termini_e_condizioni#1341_1342" target="_blank"> clausole ex art. 1341 e 1342 cc*</a> </label></br>
+                <br><input type="checkbox"><label class="news">Ho letto <a href="https://lacerba.io/pages/privacy_policy" target="_blank">L'informativa Privacy</a> e desidero vivere un'esperienza Lacerba ottimizzata (ricezione di news, sconti e promozioni personalizzate)</label></br>
+                <br><input type="checkbox"><label class="news">Ho letto <a href="https://lacerba.io/pages/privacy_policy" target="_blank">l'Informativa Privacy</a> e desidero aiutare Lacerba a produrre contenuti sempre più affini ai miei interessi sulla base del mio profilo di studio </label></br>
+                </div>
             </fieldset>
             <button type="submit">Registrati</button>
-            
+           
+            <div class="eccedi">
+                <p>hai un accout?             <a href="accedi.html">accedi</a></p>
+            </div>
         </form>
-        <img src="immagini/illustrazione-login.png">
+    </div>
+    <div class="imgcontainer">
+        <img src="immagini/illustrazione-login.png">  
+    </div>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
