@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="immmagini/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="immagini/favicon/favicon-16x16.png">
+        <link rel="manifest" href="immagini/favicon/site.webmanifest">
+        <link rel="mask-icon" href="immagini/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="immagini/favicon/favicon.ico">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>https://lacerba.io/sign_up</title>
+        <title>iscriviti</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
@@ -17,9 +23,10 @@
            <h1>Crea il tuo account su lacerba per seguire i corsi</h1>
            <form action="index.html" metho id="post">
             <fieldset>
+                <div  id="cas" class="cas"> 
                 <span class="material-icons">
                 account_circle</span>
-            <div class="cas">                
+                           
                 <input placeholder="Nome...*" type="text" name="user_name" id="name" type="">
                 <span class="material-icons">
                 account_circle</span><input placeholder="Cognome...*" type="cognome" name="user_cognome" id="cognome">
@@ -35,6 +42,7 @@
             </div>
             </fieldset>
             <fieldset>
+
                 <div class="div">
                 <br><input type="checkbox"><label class="news">Accetto i <a href="https://lacerba.io/pages/termini_e_condizioni" target="_blank"> termini di servizio*</a></label></br>
                 <br><input type="checkbox"><label class="news">Accetto le <a href="https://lacerba.io/pages/termini_e_condizioni#1341_1342" target="_blank"> clausole ex art. 1341 e 1342 cc*</a> </label></br>
@@ -45,12 +53,16 @@
             <button type="submit">Registrati</button>
            
             <div class="accedi">
-                <p>hai un accout?             <a href="accedi.html">accedi</a></p>
+                <p>hai un accout? <a href="accedi.html">accedi</a></p>
+                 <button class="face" type="">Con Facebook</button>
+                <button class="goog" type="">Con Google</button>
             </div>
         </form>
     </div>
     <div class="imgcontainer">
-         
+         <p class="lel">Non hai un account?</p>
+         <button class="lul" type="onclik"><a href="accedi.html">Accedi</a></button>
+            </div>
     </div>
     </body>
 </html>

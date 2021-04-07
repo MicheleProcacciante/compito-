@@ -18,13 +18,8 @@ body {
     height: 100vh;
     float: right;
     background-size: cover;
-    
-    
-
 }
-.formcontainer form:nth-child(3n + 1) {
-   clear: left;
-  }
+
 
 .formcontainer  {
 
@@ -129,9 +124,10 @@ label.news {
 #no_news {
   margin-bottom: 25px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   form {
-    
+    display: block;
+
   }
  
 }
@@ -170,9 +166,52 @@ button.btn{
 .logo{
   height: 10vh;
   margin: 0 150px;
+  padding-left: 200px;
 }
 h1{
   height: 6vh;
   font-size: 25px;
   margin: 0 150px;
 }
+.lul {
+  width: 40%;
+  background-color: white;
+  margin: 0 185px;
+}
+
+.lul a{
+  color: #0ACD98;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  font-style: normal; 
+  padding-top: 20px;
+}
+
+.lel {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 550px;
+}
+.face {
+  width: 49%;
+  float: left;
+  padding: 10px;
+  color: gray;
+  font-size: 1rem;
+  font-style: normal; 
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.goog {
+  width: 49%;
+  float: right;
+  padding: 10px;
+  color: gray;
+  font-size: 1rem;
+  font-style: normal; 
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 15px;
