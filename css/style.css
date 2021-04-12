@@ -207,7 +207,7 @@ h1{
   font-size: 25px;
   text-align: center;
   color: white;
-  display: flex;
+  
   
 }
 .lul {
@@ -294,81 +294,15 @@ h1{
 
   
 
- .imgcontainer {
-    display: none;
+  .imgcontainer {
+  display: none;
   }
   body{
-    width: 100%;
+  width: 100%;
   }
-  .icon_a{
-    font-family: 'Material Icons';
-    font-size: 30px;
-    padding: 5px;
-    position: absolute;
-    padding-left: 10px;
-    color: gray;
-    
-  
-  }
-  .icon_b{
-    font-family: 'Material Icons';
-    font-size: 30px;
-    padding: 5px;
-    position: absolute;
-    padding-left: 10px;
-    color: gray;
-    padding-top: 61px;
-  
-  }
-  
-  .icon_c{
-    font-family: 'Material Icons';
-    font-size: 30px;
-    padding: 5px;
-    position: absolute;
-    padding-left: 10px;
-    color: gray;
-  
-  }
-  .icon_d{
-    font-family: 'Material Icons';
-    font-size: 30px;
-    padding: 5px;
-    position: absolute;
-    padding-left: 10px;
-    color: gray;
-  
-  }
-  .icon_e{
-    font-family: 'Material Icons';
-    font-size: 30px;
-    padding: 5px;
-    position: absolute;
-    padding-left: 10px;
-    color: gray;
-    padding-top: 61px;
-  
-  }
-  .icon_f{
-    font-family: 'Material Icons';
-    font-size: 30px;
-    padding: 5px;
-    position: absolute;
-    padding-left: 10px;
-    color: gray;
-  
-  }
-  .icon_g{
-    font-family: 'Material Icons';
-    font-size: 30px;
-    padding: 5px;
-    position: absolute;
-    padding-left: 10px;
-    color: gray;
-    position: absolute;
-  
-  }
+
 }
+
 @media screen and (max-width: 768px) {
 
  
@@ -398,7 +332,27 @@ h1{
     display: inline;
   }
 }
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.icon_a {
+  position: relative;
+  flex-basis: 45%;
+}
+.icon_c{
+  position: relative;
+  flex-basis: 100%;
   
+}
+.material-icons {
+  position: absolute;
+  color: gray;
+    font-family: 'Material Icons';
+      font-size: 25px;
+      padding: 7px;
+  }
 
 
 .password_dimenticata {
