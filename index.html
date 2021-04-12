@@ -1,77 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-
-        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="immagini/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="immagini/favicon/favicon-16x16.png">
-        <link rel="manifest" href="immagini/favicon/site.webmanifest">
-        <link rel="mask-icon" href="immagini/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="immagini/favicon/favicon.ico">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>iscriviti</title>
-        <link rel="stylesheet" href="css/normalize.css">
+        <title>https://lacerba.io/login</title>
+        <link rel="stylesheet" href="style login/normalize.css">
         <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+        <link rel="stylesheet" href="style login/main.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     </head>
     <body>
 
-    <div class="formcontainer">
-            <img src="immagini/logo.png" class="logo"/>
-           <h1>Crea il tuo account su lacerba per seguire i corsi</h1>
-           <form action="index.html" metho id="post">
-            <fieldset>
 
-                <div   class="flexbox"> 
-                
-                           
-                    <div class="icon_a">
-                        <span class="material-icons">account_circle</span>
-                       <input placeholder="Nome...*" type="text" name="user_name" id="name" >
-                    </div>
-                    <div class="icon_a">
-                        <span class="material-icons">account_circl</span>
-                        <input placeholder="Cognome...*" type="cognome" name="user_cognome" id="cognome">
-                    </div>
-                    <div class="icon_c">
-                        <span class="material-icons">email</span>
-                        <input placeholder="Email...*" type="email" name="user_email" id="email">
-                    </div>
-                    <div class="icon_a">
-                        <span class="material-icons">lock</span> 
-                        <input placeholder="Password...*" type="password" name="user_password" id="password"> 
-                    </div>
-                    <div class="icon_a"> 
-                        <span class="material-icons">lock</span>  
-                        <input placeholder="Conferma password...*" type="conferma_password" name="user_conferma_password" id="conferma_password"> 
-                    </div>
-            </div>
-            </fieldset>
-            <fieldset>
+          <div class="formcontainer">
 
-                <div class="div">
-                <br><input type="checkbox"><label class="news">Accetto i <a href="https://lacerba.io/pages/termini_e_condizioni" target="_blank"> termini di servizio*</a></label></br>
-                <br><input type="checkbox"><label class="news">Accetto le <a href="https://lacerba.io/pages/termini_e_condizioni#1341_1342" target="_blank"> clausole ex art. 1341 e 1342 cc*</a> </label></br>
-                <br><input type="checkbox"><label class="news">Ho letto <a href="https://lacerba.io/pages/privacy_policy" target="_blank">L'informativa Privacy</a> e desidero vivere un'esperienza Lacerba ottimizzata (ricezione di news, sconti e promozioni personalizzate)</label></br>
-                <br><input type="checkbox"><label class="news">Ho letto <a href="https://lacerba.io/pages/privacy_policy" target="_blank">l'Informativa Privacy</a> e desidero aiutare Lacerba a produrre contenuti sempre più affini ai miei interessi sulla base del mio profilo di studio </label></br>
-                </div>
-            </fieldset>
-            <button type="submit">Registrati</button>
+               <div class="logo">
+                            <img src="immagini/logo.png">
+                        </div>
            
-            <div class="accedi">
-                <p>hai un accout? <a href="accedi.html">accedi</a></p>
-                 <br><button class="face" type="">Con Facebook</button>
-                 <button class="goog" type="">Con Google</button>
+
+
+
+            <h1>ACCEDI AL TUO ACCOUNT PER SEGUIRE I CORSI</h1>
+       
+<form>
+                  
+           
+
+            <div class="flexbox">
+            <div class="field">
+            <span class="icon">email</span>
+            <input placeholder="Email...*" type="email" name="user_email" id="email">
             </div>
-        </form>
-    </div>
-    <div class="imgcontainer">
-         <p class="lel">hai già un account?</p>
-         <button class="lul" type="onclik"><a href="accedi.html">Accedi</a></button>
+            <div class="field">
+            <span class="icon">lock</span>
+            <input placeholder="Password*(minimo 6 caratteri)." type="password" name="user_password" id="password">
             </div>
-    </div>
+            </div>
+
+
+            
+            <input type="checkbox"><label class="news">ricordami</label>
+            <button type="submit">ACCEDI</button>
+            <p class="password_dimenticata"><a href="https://lacerba.io/password/new">Hai dimenticato la tua password?</a></p>
+
+
+
+
+            <p class="alternative_access">oppure accedi con i social<p>
+
+                <button class="Facebook" type="">Con Facebook</button>
+                <button class="Google" type="">Con Google</button>
+            <p class="sing_in">Non hai un account? <a href="sing in.html">Registrati</a></p>
+
+
+
+</div>
+            <div class="imgcontainer">
+                <p class="sing_in_2">Non hai un account?</p>
+                <button class="REGISTRATI" type="onclik"><a href="sing in.html">REGISTRATI</a></button>
+            </div>
+
+            
+                
+       </form> 
     </body>
 </html>
